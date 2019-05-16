@@ -3,6 +3,7 @@ import Divider from './Divider';
 import ProjectDisplayOne from '../images/pic2.jpg';
 import ProjectDisplayTwo from '../images/pic3.jpg';
 import ProjectDisplayThree from '../images/pic9.jpg';
+import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
   render() {
@@ -16,9 +17,9 @@ export class Projects extends Component {
               <img src={ProjectDisplayTwo} alt='' />
               <div className='overlay'>
                 <div className='text'>
-                  <a href='' id='project-links'>
+                  <Link to='/weddings' id='project-links'>
                     Wedding
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -27,9 +28,9 @@ export class Projects extends Component {
               <img src={ProjectDisplayOne} alt='' />
               <div className='overlay'>
                 <div className='text'>
-                  <a href='' id='project-links'>
+                  <Link to='/family' id='project-links'>
                     Family
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -38,9 +39,9 @@ export class Projects extends Component {
               <img src={ProjectDisplayThree} alt='' />
               <div className='overlay'>
                 <div className='text'>
-                  <a href='' id='project-links'>
+                  <Link to='/lifestyle' id='project-links'>
                     Lifestyle
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

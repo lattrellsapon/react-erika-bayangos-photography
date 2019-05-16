@@ -115,17 +115,47 @@ a:hover {
   margin: 20px auto;
 }
 
-#ig-logo:hover {
-  color: red;
-}
-
 #ig-username {
-  color: #fff;
-  background: #222222;
+  color: #222222;
+  font-weight: bold;
 }
 
 .six-grid {
   margin: 20px auto;
+}
+
+#contact,
+#weddings,
+#family {
+  margin: 20px auto;
+}
+
+.image-container img {
+  max-width: 720px;
+}
+
+#contact {
+  background: #222222;
+  color: #fff;
+  padding: 20px 10px;
+  width: 50%;
+}
+
+#contact-email {
+  color: #fff;
+}
+#contact-email:hover {
+  color: #222222;
+}
+
+.footer {
+  color: #222222;
+  margin: 50px auto;
+}
+
+#treezywebdesign {
+  font-weight: bold;
+  color: #009900;
 }
 
 /* Media Queries */
@@ -135,6 +165,10 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+  }
+  .image-container {
+    width: 50%;
+    margin: auto;
   }
 }
 
